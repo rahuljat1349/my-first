@@ -1,0 +1,138 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+    ;
+}
+body{
+    background: linear-gradient(90deg, rgba(126,181,205,1) 0%, rgba(122,121,124,1) 70%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.container {
+    display: flex;
+    height: 100vh;
+    
+   
+
+}
+
+.left-container {
+   
+    width: 50%;
+}
+
+.right-container {
+  
+    width: 50%;
+}
+
+.main-container {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+   
+
+}
+
+.navbar {
+    height: 10vh;
+    background-color: rgb(152, 165, 176);
+    display: flex;
+    justify-content: space-between;
+   
+}
+.lower-main{
+    display: flex;
+    height: 70vh;
+    background-color: aquamarine;
+}
+.lower-left{
+    background-color: rgb(114,114,114);            
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgb(123,123,123) ;
+}
+.lower-right{
+    background-color: rgb(84,152,179);
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgb(148,107,109) ;
+}
+.span1{
+    font-family:system-ui;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    transition: 0.3s all ease-in-out;
+    
+}
+.span1:hover{
+    color:rgb(8, 8, 8) ;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.span2{
+    margin-left: 1rem;
+    font-family:monospace;
+    display: inline-block;
+    color: rgb(79, 77, 77);
+    transition: 0.3s all ease-in-out;
+
+}
+.span2:hover{
+    color:rgb(22, 21, 21) ;
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+.right-nav{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 1.2rem;
+    
+    
+}
+.right-nav a{
+    color: rgb(45, 125, 157);
+    transition: 0.3s all ease-in-out;
+}
+.lower-left img{
+    width: 300px;
+    height: 400px;
+}
+.lower-right img{
+    width: 300px;
+    height: 400px;
+
+}
+.bi{
+   
+}
+.right-nav a:hover{
+    transform: scale(1.1);
+    color:rgb(14, 140, 190) ;
+   
+
+}
